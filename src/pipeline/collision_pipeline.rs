@@ -71,7 +71,7 @@ impl CollisionPipeline {
             colliders,
             narrow_phase,
             self.empty_joints.joint_graph(),
-            0,
+            128,
         );
 
         // // Update kinematic bodies velocities.
